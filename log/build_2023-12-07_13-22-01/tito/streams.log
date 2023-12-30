@@ -1,0 +1,47 @@
+[0.329s] Invoking command in '/home/ahmed/project_ws/build/tito': CMAKE_PREFIX_PATH=/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/project_ws/build/tito -- -j12 -l12
+[1.005s] Invoked command in '/home/ahmed/project_ws/build/tito' returned '0': CMAKE_PREFIX_PATH=/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/project_ws/build/tito -- -j12 -l12
+[1.069s] Invoking command in '/home/ahmed/project_ws/build/tito': CMAKE_PREFIX_PATH=/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --install /home/ahmed/project_ws/build/tito
+[1.112s] -- Install configuration: ""
+[1.127s] -- Execute custom install script
+[1.157s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/empty.yaml
+[1.158s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/gaz_ros2_ctl_use_sim.yaml
+[1.158s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/gazebo_params.yaml
+[1.159s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/joystick.yaml
+[1.160s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/mapper_params_online_async.yaml
+[1.161s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/my_controllers.yaml
+[1.161s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/test.rviz
+[1.162s] -- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/config/twist_mux.yaml
+[1.188s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/view_bot.rviz
+[1.190s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/camera.xacro
+[1.191s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/gazebo_control.xacro
+[1.191s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/inertial_macros.xacro
+[1.192s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/lidar.xacro
+[1.193s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/robot.urdf.xacro
+[1.194s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/robot_core.xacro
+[1.201s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/ros2_control.xacro
+[1.203s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/joystick.launch.py
+[1.203s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/launch_sim.launch.py
+[1.204s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/rsp.launch.py
+[1.217s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/LB_Link.STL
+[1.217s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/LF_Link.STL
+[1.218s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/RB_Link.STL
+[1.219s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/RF_Link.STL
+[1.219s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/base_link.STL
+[1.235s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/worlds/empty.world
+[1.235s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/worlds/test.world
+[1.237s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/package_run_dependencies/tito
+[1.238s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/parent_prefix_path/tito
+[1.239s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/environment/ament_prefix_path.sh
+[1.240s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/environment/ament_prefix_path.dsv
+[1.242s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/environment/path.sh
+[1.243s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/environment/path.dsv
+[1.244s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/local_setup.bash
+[1.245s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/local_setup.sh
+[1.246s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/local_setup.zsh
+[1.247s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/local_setup.dsv
+[1.248s] -- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/package.dsv
+[1.275s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/packages/tito
+[1.276s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/cmake/titoConfig.cmake
+[1.277s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/cmake/titoConfig-version.cmake
+[1.278s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/package.xml
+[1.283s] Invoked command in '/home/ahmed/project_ws/build/tito' returned '0': CMAKE_PREFIX_PATH=/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --install /home/ahmed/project_ws/build/tito

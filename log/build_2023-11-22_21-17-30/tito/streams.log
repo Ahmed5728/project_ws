@@ -1,0 +1,18 @@
+[0.182s] Invoking command in '/home/ahmed/project_ws/build/tito': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/project_ws/build/tito -- -j12 -l12
+[0.199s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.214s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.356s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.362s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.400s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.400s]   ament_package_xml() package name 'tito' in '/package.xml' does not match
+[0.401s]   current PROJECT_NAME 'hendbot'.  You must call project() with the same
+[0.401s]   package name before.
+[0.401s] Call Stack (most recent call first):
+[0.401s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.401s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.401s] 
+[0.401s] 
+[0.401s] -- Configuring incomplete, errors occurred!
+[0.401s] See also "/home/ahmed/project_ws/build/tito/CMakeFiles/CMakeOutput.log".
+[0.403s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.404s] Invoked command in '/home/ahmed/project_ws/build/tito' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/project_ws/build/tito -- -j12 -l12

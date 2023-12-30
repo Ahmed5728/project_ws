@@ -1,0 +1,41 @@
+[1.734s] Invoking command in '/home/ahmed/project_ws/src/serial_motor_demo/serial_motor_demo': AMENT_PREFIX_PATH=/home/ahmed/project_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmed/project_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ahmed/project_ws/build/serial_motor_demo/prefix_override:/home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/ahmed/project_ws/build/serial_motor_demo/build install --record /home/ahmed/project_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[2.008s] running egg_info
+[2.008s] creating ../../../build/serial_motor_demo/serial_motor_demo.egg-info
+[2.008s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[2.008s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[2.008s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[2.009s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[2.009s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[2.048s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.078s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.078s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.079s] running build
+[2.079s] running build_py
+[2.079s] creating /home/ahmed/project_ws/build/serial_motor_demo/build
+[2.079s] creating /home/ahmed/project_ws/build/serial_motor_demo/build/lib
+[2.079s] creating /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[2.079s] copying serial_motor_demo/gui.py -> /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[2.079s] copying serial_motor_demo/driver.py -> /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[2.079s] copying serial_motor_demo/__init__.py -> /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[2.079s] running install
+[2.080s] running install_lib
+[2.082s] creating /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo
+[2.082s] copying /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo
+[2.082s] copying /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo
+[2.082s] copying /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo
+[2.083s] byte-compiling /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo/gui.py to gui.cpython-38.pyc
+[2.086s] byte-compiling /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo/driver.py to driver.cpython-38.pyc
+[2.087s] byte-compiling /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo/__init__.py to __init__.cpython-38.pyc
+[2.087s] running install_data
+[2.088s] creating /home/ahmed/project_ws/install/serial_motor_demo/share/ament_index
+[2.088s] creating /home/ahmed/project_ws/install/serial_motor_demo/share/ament_index/resource_index
+[2.088s] creating /home/ahmed/project_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[2.089s] copying resource/serial_motor_demo -> /home/ahmed/project_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[2.089s] copying package.xml -> /home/ahmed/project_ws/install/serial_motor_demo/share/serial_motor_demo
+[2.089s] running install_egg_info
+[2.090s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo-0.0.0-py3.8.egg-info
+[2.091s] running install_scripts
+[2.107s] Installing driver script to /home/ahmed/project_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.107s] Installing gui script to /home/ahmed/project_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.107s] writing list of installed files to '/home/ahmed/project_ws/build/serial_motor_demo/install.log'
+[2.130s] Invoked command in '/home/ahmed/project_ws/src/serial_motor_demo/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/ahmed/project_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmed/project_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ahmed/project_ws/build/serial_motor_demo/prefix_override:/home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/ahmed/project_ws/build/serial_motor_demo/build install --record /home/ahmed/project_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed

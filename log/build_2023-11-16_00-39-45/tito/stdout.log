@@ -1,0 +1,35 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ahmed/project_ws/build/tito
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/config/empty.yaml
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/description/inertial_macros.xacro
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/description/robot.urdf.xacro
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/description/robot_core.xacro
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/launch/rsp.launch.py
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/worlds/empty.world
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/package_run_dependencies/tito
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/parent_prefix_path/tito
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/environment/ament_prefix_path.sh
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/environment/path.sh
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/environment/path.dsv
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/local_setup.bash
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/local_setup.sh
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/local_setup.zsh
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/local_setup.dsv
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/package.dsv
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/packages/tito
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/cmake/titoConfig.cmake
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/cmake/titoConfig-version.cmake
+-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/package.xml

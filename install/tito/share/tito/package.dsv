@@ -1,0 +1,8 @@
+source;share/tito/hook/cmake_prefix_path.ps1
+source;share/tito/hook/cmake_prefix_path.dsv
+source;share/tito/hook/cmake_prefix_path.sh
+source;share/tito/local_setup.bash
+source;share/tito/local_setup.dsv
+source;share/tito/local_setup.ps1
+source;share/tito/local_setup.sh
+source;share/tito/local_setup.zsh

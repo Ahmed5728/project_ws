@@ -1,0 +1,9 @@
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/install/strip.dir
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/install/local.dir
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/install.dir
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/list_install_components.dir
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/rebuild_cache.dir
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/edit_cache.dir
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/test.dir
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/tito_uninstall.dir
+/home/ahmed/project_ws/src/build/tito/CMakeFiles/uninstall.dir

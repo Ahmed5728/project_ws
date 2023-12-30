@@ -1,0 +1,561 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.000274] (tito) JobQueued: {'identifier': 'tito', 'dependencies': OrderedDict()}
+[0.000468] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/ahmed/project_ws/install/serial_motor_demo_msgs')])}
+[0.000593] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.099721] (-) TimerEvent: {}
+[0.160007] (tito) JobStarted: {'identifier': 'tito'}
+[0.200135] (-) TimerEvent: {}
+[0.300387] (-) TimerEvent: {}
+[0.312480] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.312859] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ahmed/project_ws/src/serial_motor_demo/serial_motor_demo_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ahmed/project_ws/install/serial_motor_demo_msgs'], 'cwd': '/home/ahmed/project_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'ahmed'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('OLDPWD', '/home/ahmed/project_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1561'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ahmed/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('WINDOWID', '41950521'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:45144'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ahmed-Lenovo-Legion-5-15IMH05H:@/tmp/.ICE-unix/1639,unix/ahmed-Lenovo-Legion-5-15IMH05H:/tmp/.ICE-unix/1639'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '80cd09c5cb1e4da98023ddc5c2a28e42'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/ahmed/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ahmed'), ('AMENT_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/ahmed/project_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/my_first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy')]), 'shell': False}
+[0.316955] (tito) JobProgress: {'identifier': 'tito', 'progress': 'cmake'}
+[0.400609] (-) TimerEvent: {}
+[0.501449] (-) TimerEvent: {}
+[0.512263] (tito) JobProgress: {'identifier': 'tito', 'progress': 'build'}
+[0.515198] (tito) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ahmed/project_ws/build/tito', '--', '-j12', '-l12'], 'cwd': '/home/ahmed/project_ws/build/tito', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'ahmed'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('OLDPWD', '/home/ahmed/project_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1561'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ahmed/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('WINDOWID', '41950521'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:45144'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ahmed-Lenovo-Legion-5-15IMH05H:@/tmp/.ICE-unix/1639,unix/ahmed-Lenovo-Legion-5-15IMH05H:/tmp/.ICE-unix/1639'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '80cd09c5cb1e4da98023ddc5c2a28e42'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/ahmed/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ahmed'), ('AMENT_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/ahmed/project_ws/build/tito'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/my_first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy')]), 'shell': False}
+[0.601675] (-) TimerEvent: {}
+[0.702373] (-) TimerEvent: {}
+[0.802960] (-) TimerEvent: {}
+[0.903530] (-) TimerEvent: {}
+[1.004087] (-) TimerEvent: {}
+[1.104662] (-) TimerEvent: {}
+[1.205149] (-) TimerEvent: {}
+[1.305734] (-) TimerEvent: {}
+[1.406166] (-) TimerEvent: {}
+[1.506802] (-) TimerEvent: {}
+[1.607452] (-) TimerEvent: {}
+[1.707782] (-) TimerEvent: {}
+[1.808513] (-) TimerEvent: {}
+[1.909207] (-) TimerEvent: {}
+[2.009889] (-) TimerEvent: {}
+[2.110615] (-) TimerEvent: {}
+[2.211297] (-) TimerEvent: {}
+[2.290298] (tito) CommandEnded: {'returncode': 0}
+[2.304295] (tito) JobProgress: {'identifier': 'tito', 'progress': 'install'}
+[2.311405] (-) TimerEvent: {}
+[2.312386] (tito) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ahmed/project_ws/build/tito'], 'cwd': '/home/ahmed/project_ws/build/tito', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'ahmed'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('OLDPWD', '/home/ahmed/project_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1561'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ahmed/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('WINDOWID', '41950521'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:45144'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ahmed-Lenovo-Legion-5-15IMH05H:@/tmp/.ICE-unix/1639,unix/ahmed-Lenovo-Legion-5-15IMH05H:/tmp/.ICE-unix/1639'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '80cd09c5cb1e4da98023ddc5c2a28e42'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/ahmed/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ahmed'), ('AMENT_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/ahmed/project_ws/build/tito'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/my_first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy')]), 'shell': False}
+[2.353613] (tito) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.400692] (tito) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.402712] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/empty.yaml\n'}
+[2.403469] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[2.404101] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/gazebo_params.yaml\n'}
+[2.404562] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/joystick.yaml\n'}
+[2.405034] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/mapper_params_online_async.yaml\n'}
+[2.405639] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/my_controllers.yaml\n'}
+[2.406238] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/nav2_params.yaml\n'}
+[2.406728] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/test.rviz\n'}
+[2.407133] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/twist_mux.yaml\n'}
+[2.407454] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/view_bot.rviz\n'}
+[2.408667] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/camera.xacro\n'}
+[2.409309] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/gazebo_control.xacro\n'}
+[2.409944] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/inertial_macros.xacro\n'}
+[2.410476] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/lidar.xacro\n'}
+[2.410940] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/robot.urdf.xacro\n'}
+[2.411426] (-) TimerEvent: {}
+[2.412045] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/robot_core.xacro\n'}
+[2.412414] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/ros2_control.xacro\n'}
+[2.413140] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/joystick.launch.py\n'}
+[2.413756] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/launch_sim.launch.py\n'}
+[2.414414] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/localization_launch.py\n'}
+[2.414902] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/navigation_launch.py\n'}
+[2.415377] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/online_async_launch.py\n'}
+[2.416003] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/rsp.launch.py\n'}
+[2.416240] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/LB_Link.STL\n'}
+[2.416337] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/LF_Link.STL\n'}
+[2.416464] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/RB_Link.STL\n'}
+[2.416575] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/RF_Link.STL\n'}
+[2.416691] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/meshes/base_link.STL\n'}
+[2.417041] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/worlds/empty.world\n'}
+[2.417168] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/worlds/test.world\n'}
+[2.417391] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/package_run_dependencies/tito\n'}
+[2.417589] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/parent_prefix_path/tito\n'}
+[2.417858] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/environment/ament_prefix_path.sh\n'}
+[2.417998] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/environment/ament_prefix_path.dsv\n'}
+[2.418186] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/environment/path.sh\n'}
+[2.418374] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/environment/path.dsv\n'}
+[2.418557] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/local_setup.bash\n'}
+[2.418759] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/local_setup.sh\n'}
+[2.418969] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/local_setup.zsh\n'}
+[2.419177] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/local_setup.dsv\n'}
+[2.419351] (tito) StdoutLine: {'line': b'-- Symlinking: /home/ahmed/project_ws/install/tito/share/tito/package.dsv\n'}
+[2.428220] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/ament_index/resource_index/packages/tito\n'}
+[2.428560] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/cmake/titoConfig.cmake\n'}
+[2.428756] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/cmake/titoConfig-version.cmake\n'}
+[2.428909] (tito) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/package.xml\n'}
+[2.430850] (tito) CommandEnded: {'returncode': 0}
+[2.511542] (-) TimerEvent: {}
+[2.612199] (-) TimerEvent: {}
+[2.712504] (-) TimerEvent: {}
+[2.813600] (-) TimerEvent: {}
+[2.914233] (-) TimerEvent: {}
+[2.940331] (tito) JobEnded: {'identifier': 'tito', 'rc': 0}
+[3.014429] (-) TimerEvent: {}
+[3.114992] (-) TimerEvent: {}
+[3.215483] (-) TimerEvent: {}
+[3.316173] (-) TimerEvent: {}
+[3.416797] (-) TimerEvent: {}
+[3.530589] (-) TimerEvent: {}
+[3.630943] (-) TimerEvent: {}
+[3.731543] (-) TimerEvent: {}
+[3.832755] (-) TimerEvent: {}
+[3.934289] (-) TimerEvent: {}
+[4.035012] (-) TimerEvent: {}
+[4.135537] (-) TimerEvent: {}
+[4.235933] (-) TimerEvent: {}
+[4.336288] (-) TimerEvent: {}
+[4.436630] (-) TimerEvent: {}
+[4.537089] (-) TimerEvent: {}
+[4.637549] (-) TimerEvent: {}
+[4.738147] (-) TimerEvent: {}
+[4.838497] (-) TimerEvent: {}
+[4.938808] (-) TimerEvent: {}
+[5.039199] (-) TimerEvent: {}
+[5.139735] (-) TimerEvent: {}
+[5.240040] (-) TimerEvent: {}
+[5.340684] (-) TimerEvent: {}
+[5.441239] (-) TimerEvent: {}
+[5.499629] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[5.541375] (-) TimerEvent: {}
+[5.641853] (-) TimerEvent: {}
+[5.742283] (-) TimerEvent: {}
+[5.842875] (-) TimerEvent: {}
+[5.943300] (-) TimerEvent: {}
+[6.043894] (-) TimerEvent: {}
+[6.144477] (-) TimerEvent: {}
+[6.244839] (-) TimerEvent: {}
+[6.345304] (-) TimerEvent: {}
+[6.446114] (-) TimerEvent: {}
+[6.546724] (-) TimerEvent: {}
+[6.647111] (-) TimerEvent: {}
+[6.747574] (-) TimerEvent: {}
+[6.848011] (-) TimerEvent: {}
+[6.917662] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[6.948193] (-) TimerEvent: {}
+[6.996339] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[7.048372] (-) TimerEvent: {}
+[7.131283] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[7.132962] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.148504] (-) TimerEvent: {}
+[7.229584] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.239878] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.248623] (-) TimerEvent: {}
+[7.256321] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.259297] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.320349] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[7.321549] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.348716] (-) TimerEvent: {}
+[7.379213] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.388617] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.389115] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.448916] (-) TimerEvent: {}
+[7.467731] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.549017] (-) TimerEvent: {}
+[7.553784] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.553925] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.649113] (-) TimerEvent: {}
+[7.749441] (-) TimerEvent: {}
+[7.849851] (-) TimerEvent: {}
+[7.950467] (-) TimerEvent: {}
+[8.050895] (-) TimerEvent: {}
+[8.151469] (-) TimerEvent: {}
+[8.251840] (-) TimerEvent: {}
+[8.352178] (-) TimerEvent: {}
+[8.435949] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.452311] (-) TimerEvent: {}
+[8.552887] (-) TimerEvent: {}
+[8.653515] (-) TimerEvent: {}
+[8.664532] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.722727] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.753676] (-) TimerEvent: {}
+[8.798081] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[8.854342] (-) TimerEvent: {}
+[8.954882] (-) TimerEvent: {}
+[9.055410] (-) TimerEvent: {}
+[9.155759] (-) TimerEvent: {}
+[9.256137] (-) TimerEvent: {}
+[9.356582] (-) TimerEvent: {}
+[9.398854] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[9.438976] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.456707] (-) TimerEvent: {}
+[9.557257] (-) TimerEvent: {}
+[9.657982] (-) TimerEvent: {}
+[9.705958] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.758058] (-) TimerEvent: {}
+[9.858298] (-) TimerEvent: {}
+[9.867736] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[9.958455] (-) TimerEvent: {}
+[9.969793] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[10.058556] (-) TimerEvent: {}
+[10.158959] (-) TimerEvent: {}
+[10.228656] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.244173] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.259099] (-) TimerEvent: {}
+[10.280346] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[10.283400] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[10.341778] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[10.342248] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.342333] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[10.342390] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[10.359317] (-) TimerEvent: {}
+[10.370350] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.459402] (-) TimerEvent: {}
+[10.559871] (-) TimerEvent: {}
+[10.660616] (-) TimerEvent: {}
+[10.761017] (-) TimerEvent: {}
+[10.763978] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.766313] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.767847] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.777075] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.845385] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[10.851151] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ahmed/project_ws/build/serial_motor_demo_msgs\n'}
+[10.861257] (-) TimerEvent: {}
+[10.879417] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[10.881964] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[10.882579] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ahmed/project_ws/build/serial_motor_demo_msgs', '--', '-j12', '-l12'], 'cwd': '/home/ahmed/project_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'ahmed'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('OLDPWD', '/home/ahmed/project_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1561'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ahmed/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('WINDOWID', '41950521'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:45144'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ahmed-Lenovo-Legion-5-15IMH05H:@/tmp/.ICE-unix/1639,unix/ahmed-Lenovo-Legion-5-15IMH05H:/tmp/.ICE-unix/1639'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '80cd09c5cb1e4da98023ddc5c2a28e42'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/ahmed/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ahmed'), ('AMENT_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/ahmed/project_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/my_first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy')]), 'shell': False}
+[10.952604] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__cpp\x1b[0m\n'}
+[10.956164] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.961316] (-) TimerEvent: {}
+[10.963628] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.061416] (-) TimerEvent: {}
+[11.161832] (-) TimerEvent: {}
+[11.262472] (-) TimerEvent: {}
+[11.362754] (-) TimerEvent: {}
+[11.445811] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  4%] Built target serial_motor_demo_msgs__cpp\n'}
+[11.458538] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.459065] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.459163] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.462878] (-) TimerEvent: {}
+[11.464621] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_generator_c\x1b[0m\n'}
+[11.544355] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[11.544754] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[11.544864] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[11.563017] (-) TimerEvent: {}
+[11.647778] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[11.663093] (-) TimerEvent: {}
+[11.677531] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 19%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[11.687652] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.688014] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.763219] (-) TimerEvent: {}
+[11.768554] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[11.820339] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[11.822211] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[11.822347] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[11.844666] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[11.844887] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.863332] (-) TimerEvent: {}
+[11.963830] (-) TimerEvent: {}
+[11.981031] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[11.982284] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[11.993252] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[11.994015] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[12.000031] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[12.002792] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[12.063899] (-) TimerEvent: {}
+[12.075243] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[12.094263] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[12.096207] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[12.139692] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.164030] (-) TimerEvent: {}
+[12.171134] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[12.203719] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[12.203947] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[12.204035] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[12.246902] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.247276] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.264177] (-) TimerEvent: {}
+[12.279757] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[12.301099] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[12.364427] (-) TimerEvent: {}
+[12.464817] (-) TimerEvent: {}
+[12.565192] (-) TimerEvent: {}
+[12.665699] (-) TimerEvent: {}
+[12.766070] (-) TimerEvent: {}
+[12.866426] (-) TimerEvent: {}
+[12.950742] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.952425] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.966587] (-) TimerEvent: {}
+[12.989768] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[13.004888] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[13.066658] (-) TimerEvent: {}
+[13.078866] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.166832] (-) TimerEvent: {}
+[13.252319] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[13.259865] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.266891] (-) TimerEvent: {}
+[13.367138] (-) TimerEvent: {}
+[13.467483] (-) TimerEvent: {}
+[13.529264] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.543457] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o\x1b[0m\n'}
+[13.544616] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[13.545042] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o\x1b[0m\n'}
+[13.567579] (-) TimerEvent: {}
+[13.667832] (-) TimerEvent: {}
+[13.768122] (-) TimerEvent: {}
+[13.868608] (-) TimerEvent: {}
+[13.969383] (-) TimerEvent: {}
+[13.993360] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.069518] (-) TimerEvent: {}
+[14.071308] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[14.080837] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs\x1b[0m\n'}
+[14.089177] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[14.098799] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__py\x1b[0m\n'}
+[14.106560] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.169615] (-) TimerEvent: {}
+[14.269984] (-) TimerEvent: {}
+[14.370272] (-) TimerEvent: {}
+[14.470812] (-) TimerEvent: {}
+[14.571030] (-) TimerEvent: {}
+[14.638250] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[14.645653] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__python\x1b[0m\n'}
+[14.671229] (-) TimerEvent: {}
+[14.771778] (-) TimerEvent: {}
+[14.833967] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o\x1b[0m\n'}
+[14.834205] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o\x1b[0m\n'}
+[14.834332] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[14.871881] (-) TimerEvent: {}
+[14.938977] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__python.so\x1b[0m\n'}
+[14.972127] (-) TimerEvent: {}
+[15.029144] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__python\n'}
+[15.047270] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[15.047730] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[15.047864] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[15.072307] (-) TimerEvent: {}
+[15.073900] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.082365] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.084414] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.172380] (-) TimerEvent: {}
+[15.191585] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.222162] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.222395] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.231694] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[15.255648] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[15.272615] (-) TimerEvent: {}
+[15.282948] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.293332] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[15.345923] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[15.346323] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ahmed/project_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/ahmed/project_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'ahmed'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('OLDPWD', '/home/ahmed/project_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1561'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ahmed/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('WINDOWID', '41950521'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:45144'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ahmed-Lenovo-Legion-5-15IMH05H:@/tmp/.ICE-unix/1639,unix/ahmed-Lenovo-Legion-5-15IMH05H:/tmp/.ICE-unix/1639'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '80cd09c5cb1e4da98023ddc5c2a28e42'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/ahmed/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ahmed'), ('AMENT_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/ahmed/project_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/my_first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy')]), 'shell': False}
+[15.355391] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.355780] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[15.355917] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs\n'}
+[15.356027] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg\n'}
+[15.356130] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail\n'}
+[15.356202] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.c\n'}
+[15.356272] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[15.356352] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[15.356422] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c\n'}
+[15.356503] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[15.356556] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[15.356617] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[15.356696] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[15.356758] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c\n'}
+[15.356818] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[15.356878] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[15.356938] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[15.357017] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[15.357097] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[15.357177] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[15.357238] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.357315] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[15.357405] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[15.357578] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[15.357819] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""\n'}
+[15.357888] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs\n'}
+[15.357969] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg\n'}
+[15.358037] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail\n'}
+[15.358103] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[15.358166] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[15.358219] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[15.358281] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.358332] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[15.358487] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.358577] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs\n'}
+[15.358685] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg\n'}
+[15.358783] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail\n'}
+[15.358873] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.358961] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.359030] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/dds_fastrtps\n'}
+[15.359126] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.359198] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.359268] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.359368] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.359463] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs\n'}
+[15.359574] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg\n'}
+[15.359666] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail\n'}
+[15.359751] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[15.359817] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c\n'}
+[15.359892] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c\n'}
+[15.359971] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c\n'}
+[15.360022] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[15.360146] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[15.360260] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.360368] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[15.360498] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.360639] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[15.360802] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[15.360893] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs\n'}
+[15.361000] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg\n'}
+[15.361072] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail\n'}
+[15.361171] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[15.361242] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[15.361343] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[15.361430] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[15.361533] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[15.361619] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[15.361704] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[15.361798] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[15.361866] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[15.361920] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[15.362006] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[15.362074] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[15.362142] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[15.362209] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[15.362286] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[15.362339] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[15.362392] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs\n'}
+[15.362456] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg\n'}
+[15.362507] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail\n'}
+[15.362557] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.362607] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp\n'}
+[15.362689] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.362754] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp\n'}
+[15.362808] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.362860] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp\n'}
+[15.362911] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[15.362979] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.363047] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[15.363111] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[15.363166] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[15.363219] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[15.363285] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[15.372650] (-) TimerEvent: {}
+[15.397620] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py'...\n"}
+[15.403332] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg\n'}
+[15.403611] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c\n'}
+[15.403775] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[15.403942] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c\n'}
+[15.404080] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[15.404188] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command_s.c\n'}
+[15.404283] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[15.404388] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[15.404540] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.404961] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.405252] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.405692] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.405937] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.406415] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.406599] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so\n'}
+[15.406890] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so" to ""\n'}
+[15.407058] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[15.407296] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[15.407439] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[15.407584] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[15.407731] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[15.407903] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[15.408107] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[15.408337] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[15.408859] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[15.409054] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[15.409167] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[15.409260] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[15.409384] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[15.409462] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[15.409542] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[15.409619] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[15.409681] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[15.409759] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[15.409899] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[15.410014] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.410185] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.410302] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.410460] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[15.410576] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.410734] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[15.410906] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.411020] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.411180] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[15.411291] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.411407] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[15.411523] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.411637] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.411749] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.411858] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.411968] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.412074] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.412185] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[15.412266] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[15.412358] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/project_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[15.415591] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[15.472844] (-) TimerEvent: {}
+[15.573561] (-) TimerEvent: {}
+[15.674382] (-) TimerEvent: {}
+[15.775470] (-) TimerEvent: {}
+[15.875754] (-) TimerEvent: {}
+[15.958849] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[15.959650] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[15.976355] (-) TimerEvent: {}
+[16.078830] (-) TimerEvent: {}
+[16.179315] (-) TimerEvent: {}
+[16.279873] (-) TimerEvent: {}
+[16.380290] (-) TimerEvent: {}
+[16.480669] (-) TimerEvent: {}
+[16.581419] (-) TimerEvent: {}
+[16.681842] (-) TimerEvent: {}
+[16.782826] (-) TimerEvent: {}
+[16.883548] (-) TimerEvent: {}
+[16.983903] (-) TimerEvent: {}
+[17.084256] (-) TimerEvent: {}
+[17.184860] (-) TimerEvent: {}
+[17.285275] (-) TimerEvent: {}
+[17.385893] (-) TimerEvent: {}
+[17.486648] (-) TimerEvent: {}
+[17.586903] (-) TimerEvent: {}
+[17.687176] (-) TimerEvent: {}
+[17.690611] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/serial_motor_demo', 'build', '--build-base', '/home/ahmed/project_ws/build/serial_motor_demo/build', 'install', '--record', '/home/ahmed/project_ws/build/serial_motor_demo/install.log', '--install-scripts', '$base/lib/serial_motor_demo', '--single-version-externally-managed'], 'cwd': '/home/ahmed/project_ws/src/serial_motor_demo/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'ahmed', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1713', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ahmed', 'OLDPWD': '/home/ahmed/project_ws/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '1561', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ahmed/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ahmed', 'WINDOWID': '41950521', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '8:45144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/ahmed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ahmed-Lenovo-Legion-5-15IMH05H:@/tmp/.ICE-unix/1639,unix/ahmed-Lenovo-Legion-5-15IMH05H:/tmp/.ICE-unix/1639', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '80cd09c5cb1e4da98023ddc5c2a28e42', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/ahmed/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ahmed', 'AMENT_PREFIX_PATH': '/home/ahmed/project_ws/install/serial_motor_demo_msgs:/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/ahmed/project_ws/build/serial_motor_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=29184d2139898c47f20dfed965816be0', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ahmed/project_ws/build/serial_motor_demo/prefix_override:/home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ahmed/project_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ahmed/colcon_ws/install/my_first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ahmed/project_ws/install/serial_motor_demo_msgs'}, 'shell': False}
+[17.787431] (-) TimerEvent: {}
+[17.888262] (-) TimerEvent: {}
+[17.967030] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[17.967460] (serial_motor_demo) StdoutLine: {'line': b'creating ../../../build/serial_motor_demo/serial_motor_demo.egg-info\n'}
+[17.967688] (serial_motor_demo) StdoutLine: {'line': b'writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO\n'}
+[17.967896] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt\n'}
+[17.968057] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt\n'}
+[17.968146] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt\n'}
+[17.968241] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt\n'}
+[17.988356] (-) TimerEvent: {}
+[18.007618] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[18.037165] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[18.037929] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[18.038135] (serial_motor_demo) StdoutLine: {'line': b'running build\n'}
+[18.038219] (serial_motor_demo) StdoutLine: {'line': b'running build_py\n'}
+[18.038326] (serial_motor_demo) StdoutLine: {'line': b'creating /home/ahmed/project_ws/build/serial_motor_demo/build\n'}
+[18.038457] (serial_motor_demo) StdoutLine: {'line': b'creating /home/ahmed/project_ws/build/serial_motor_demo/build/lib\n'}
+[18.038548] (serial_motor_demo) StdoutLine: {'line': b'creating /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo\n'}
+[18.038598] (serial_motor_demo) StdoutLine: {'line': b'copying serial_motor_demo/gui.py -> /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo\n'}
+[18.038681] (serial_motor_demo) StdoutLine: {'line': b'copying serial_motor_demo/driver.py -> /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo\n'}
+[18.038815] (serial_motor_demo) StdoutLine: {'line': b'copying serial_motor_demo/__init__.py -> /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo\n'}
+[18.038973] (serial_motor_demo) StdoutLine: {'line': b'running install\n'}
+[18.039989] (serial_motor_demo) StdoutLine: {'line': b'running install_lib\n'}
+[18.041277] (serial_motor_demo) StdoutLine: {'line': b'creating /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo\n'}
+[18.041527] (serial_motor_demo) StdoutLine: {'line': b'copying /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo\n'}
+[18.041722] (serial_motor_demo) StdoutLine: {'line': b'copying /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo\n'}
+[18.041849] (serial_motor_demo) StdoutLine: {'line': b'copying /home/ahmed/project_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo\n'}
+[18.042342] (serial_motor_demo) StdoutLine: {'line': b'byte-compiling /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo/gui.py to gui.cpython-38.pyc\n'}
+[18.045732] (serial_motor_demo) StdoutLine: {'line': b'byte-compiling /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo/driver.py to driver.cpython-38.pyc\n'}
+[18.046684] (serial_motor_demo) StdoutLine: {'line': b'byte-compiling /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo/__init__.py to __init__.cpython-38.pyc\n'}
+[18.046897] (serial_motor_demo) StdoutLine: {'line': b'running install_data\n'}
+[18.047675] (serial_motor_demo) StdoutLine: {'line': b'creating /home/ahmed/project_ws/install/serial_motor_demo/share/ament_index\n'}
+[18.047817] (serial_motor_demo) StdoutLine: {'line': b'creating /home/ahmed/project_ws/install/serial_motor_demo/share/ament_index/resource_index\n'}
+[18.047982] (serial_motor_demo) StdoutLine: {'line': b'creating /home/ahmed/project_ws/install/serial_motor_demo/share/ament_index/resource_index/packages\n'}
+[18.048109] (serial_motor_demo) StdoutLine: {'line': b'copying resource/serial_motor_demo -> /home/ahmed/project_ws/install/serial_motor_demo/share/ament_index/resource_index/packages\n'}
+[18.048210] (serial_motor_demo) StdoutLine: {'line': b'copying package.xml -> /home/ahmed/project_ws/install/serial_motor_demo/share/serial_motor_demo\n'}
+[18.048264] (serial_motor_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.049825] (serial_motor_demo) StdoutLine: {'line': b'Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/ahmed/project_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo-0.0.0-py3.8.egg-info\n'}
+[18.050546] (serial_motor_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[18.066080] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/ahmed/project_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[18.066409] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/ahmed/project_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[18.066643] (serial_motor_demo) StdoutLine: {'line': b"writing list of installed files to '/home/ahmed/project_ws/build/serial_motor_demo/install.log'\n"}
+[18.088493] (-) TimerEvent: {}
+[18.089216] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[18.188679] (-) TimerEvent: {}
+[18.222455] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[18.223250] (-) EventReactorShutdown: {}

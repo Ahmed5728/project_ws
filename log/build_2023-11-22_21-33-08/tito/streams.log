@@ -1,0 +1,19 @@
+[0.180s] Invoking command in '/home/ahmed/project_ws/build/tito': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/project_ws/build/tito -- -j12 -l12
+[0.204s] Invoked command in '/home/ahmed/project_ws/build/tito' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/project_ws/build/tito -- -j12 -l12
+[0.231s] Invoking command in '/home/ahmed/project_ws/build/tito': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --install /home/ahmed/project_ws/build/tito
+[0.238s] -- Install configuration: ""
+[0.238s] -- Execute custom install script
+[0.239s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/config/empty.yaml
+[0.239s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/inertial_macros.xacro
+[0.239s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/robot.urdf.xacro
+[0.239s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/description/robot_core.xacro
+[0.239s] -- Up-to-date symlink: /home/ahmed/project_ws/install/tito/share/tito/launch/rsp.launch.py
+[0.239s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.239s]   ament_cmake_symlink_install_directory() can't find
+[0.239s]   '/home/ahmed/project_ws/src/tito/meshes'
+[0.240s] Call Stack (most recent call first):
+[0.240s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.240s]   cmake_install.cmake:41 (include)
+[0.240s] 
+[0.240s] 
+[0.240s] Invoked command in '/home/ahmed/project_ws/build/tito' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/colcon_ws/install/turtlebot3_teleop:/home/ahmed/colcon_ws/install/turtlebot3_example:/home/ahmed/colcon_ws/install/my_first_package:/opt/ros/foxy /usr/bin/cmake --install /home/ahmed/project_ws/build/tito
